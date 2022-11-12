@@ -1,0 +1,5 @@
+### docker commands
+
+docker build -t nodejsdockerdemo .
+
+docker run -d --name nodejsdockerdemo -p 8090:8080 nodejsdockerdemo
